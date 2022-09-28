@@ -4,7 +4,7 @@ public interface Parking {
 
     /*Métods */
 
-    // no se puede crear metodo boolean??
+    
      public boolean hayPlaza();
 
      public void aparcaCoche(vehiculo coche) throws Exception;
