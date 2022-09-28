@@ -25,8 +25,18 @@ public class ParkingTestMOISES {
        parkingMetro.sacarCoche(coche3);
        parkingMetro.sacarCoche(coche4);
        parkingMetro.sacarCoche(coche5);
-       double dFactura= parkingMetro.getFactura(coche1);
-       System.out.println(coche1+";  Factura= "+dFactura);
+
+       double dFactura1= parkingMetro.getFactura(coche1);
+       double dFactura2= parkingMetro.getFactura(coche2);
+       double dFactura3= parkingMetro.getFactura(coche3);
+       double dFactura4= parkingMetro.getFactura(coche4);
+       double dFactura5= parkingMetro.getFactura(coche5);
+
+       System.out.println(coche1+";  Factura= "+dFactura1);
+       System.out.println(coche2+";  Factura= "+dFactura2);
+       System.out.println(coche3+";  Factura= "+dFactura3);
+       System.out.println(coche4+";  Factura= "+dFactura4);
+       System.out.println(coche5+";  Factura= "+dFactura5);
     }catch(Exception e){
         e.printStackTrace();
     }
