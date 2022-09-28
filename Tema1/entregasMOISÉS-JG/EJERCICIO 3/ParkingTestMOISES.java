@@ -14,9 +14,9 @@ public class ParkingTestMOISES {
        ParkingVehiculo parkingMetro= new ParkingVehiculo("Av la albufera 12");
        parkingMetro.aparcaCoche(coche1);
        parkingMetro.aparcaCoche(coche2);
-       parkingMetro.aparcaCoche(coche2);
-       parkingMetro.aparcaCoche(coche2);
-       parkingMetro.aparcaCoche(coche2);
+       parkingMetro.aparcaCoche(coche3);
+       parkingMetro.aparcaCoche(coche4);
+       parkingMetro.aparcaCoche(coche5);
 
        //lapso de tiempo 2 min
        Thread.sleep(120*1000);
