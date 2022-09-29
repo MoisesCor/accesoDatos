@@ -3,9 +3,9 @@ package entregasMJG.Ejercicio3;
 import java.time.LocalDateTime;
 
 public class vehiculo {
-    public String sMatricula;
-    public  LocalDateTime lFechaInicio;
-    public LocalDateTime lFechaSalida;
+    private String sMatricula;
+    private  LocalDateTime lFechaInicio;
+    private LocalDateTime lFechaSalida;
 
 
 
