@@ -57,7 +57,7 @@ public class  ParkingVehiculo implements Parking {
 
     @Override
     public void sacarCoche(vehiculo coche) throws Exception {
-        if(coche.lFechaInicio!=null){
+        if(coche.getlFechaInicio()!=null){
             iPlazasOcupadas--;
             coche.setlFechaSalida(LocalDateTime.now());
         }else{
@@ -80,8 +80,8 @@ public class  ParkingVehiculo implements Parking {
     @Override
     public double getFactura(vehiculo coche) throws Exception {
         double total;
-        if(coche.lFechaSalida.isAfter(coche.lFechaInicio) && coche.lFechaInicio!=null && coche.lFechaSalida!=null){
-             total=(ChronoUnit.MINUTES.between(coche.lFechaInicio, coche.lFechaSalida))*dPrecioMin;
+        if(coche.getlFechaSalida().isAfter(coche.getlFechaInicio()) && coche.getlFechaInicio()!=null && coche.getlFechaSalida()!=null){
+             total=(ChronoUnit.MINUTES.between(coche.getlFechaInicio(), coche.getlFechaSalida()))*dPrecioMin;
              //coche.setlFechaInicio(null);
              //coche.setlFechaSalida(null);
         }else{
