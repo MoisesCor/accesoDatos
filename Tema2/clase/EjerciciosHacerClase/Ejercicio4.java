@@ -36,6 +36,8 @@ public class Ejercicio4 {
              FileWriter writer = new FileWriter(Constantes.RUTA2+"ejercicio4COPIA.txt");
              BufferedWriter bw = new BufferedWriter(writer);
             ) {
+
+                // si fuese más de una linea pues un while en lectura q vaya cambiando de linea, como el 1 ejer de la entrega que vaya recorriendo las lineas y dentro lo demas
             sTexto= bfIn.readLine();
             StringTokenizer st = new StringTokenizer(sTexto);
             
@@ -53,6 +55,8 @@ public class Ejercicio4 {
                     }
                    
                 }
+                bw.close();
+                bfIn.close();
      
               
             }
