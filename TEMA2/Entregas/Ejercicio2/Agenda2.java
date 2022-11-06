@@ -66,7 +66,7 @@ public class Agenda2   {
     public void buscarContacto(String patron){
        
         for(String nombre: agenda.keySet()){
-            if(nombre.startsWith(patron)){
+            if(nombre.startsWith(patron)){// esto para sabe por cual empieza
                 System.out.println(nombre+" "+agenda.get(nombre));
                 
             }

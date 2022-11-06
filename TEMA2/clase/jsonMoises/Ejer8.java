@@ -6,6 +6,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 
@@ -29,16 +30,17 @@ public class Ejer8 {
         //insertamos el array en e json
         objetoJ1.add("meses", jsonArrayMeses);
         System.out.println("Obje json = "+objetoJ1);
+        final String representacionBonita = new GsonBuilder().setPrettyPrinting().create().toJson(objetoJ1);
+        System.out.println(representacionBonita);
 
         /* Volcar a fichero el json  */
         Path path = Paths.get("C:\\Moises\\ppp\\ejercicio4\\objeto.json\\");
-        try {//mirar como poder guardarlo con buen formato y no en una linea se hace atraves de Gson con un SetPreti
-            Files.write(path, (objetoJ1.toString()).getBytes());
+        try {//de esta forma se le da formato para que salga ordenado
+            Files.write(path, (new GsonBuilder().setPrettyPrinting().create().toJson(objetoJ1)).getBytes());
             
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        Gson objGson = new Gson();
     }
 }

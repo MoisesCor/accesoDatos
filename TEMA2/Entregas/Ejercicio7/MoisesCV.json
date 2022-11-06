@@ -1,0 +1,19 @@
+{
+  "nombre": "Moises",
+  "apellidos": "Jimenez Garcia",
+  "edad": 30,
+  "estudios": [
+    "ESO",
+    "Bachiller",
+    "DAM"
+  ],
+  "idiomas": {
+    "Ingles": "A1",
+    "Frances": "a2"
+  },
+  "experiencia": [
+    "Carrefour",
+    "primark",
+    "brasayleña"
+  ]
+}

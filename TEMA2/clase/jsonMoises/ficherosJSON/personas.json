@@ -1,0 +1,22 @@
+[
+  {
+    "nombre": "mois",
+    "apellido": "dos",
+    "edad": 30,
+    "aficiones": [
+      "esgrima",
+      "perros",
+      "comer"
+    ]
+  },
+  {
+    "nombre": "pepe",
+    "apellido": "poner",
+    "edad": 32,
+    "aficiones": [
+      "migas",
+      "gatos",
+      "cagar"
+    ]
+  }
+]
