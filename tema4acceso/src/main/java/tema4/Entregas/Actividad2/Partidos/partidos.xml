@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<partidos>
+	<partido>
+		<equipoLocal>Bulls</equipoLocal>
+		<equipoVisitante>Suns</equipoVisitante>
+		<puntosLocal>70</puntosLocal>
+		<puntosVisitante>60</puntosVisitante>
+		<temporada>98/99</temporada>
+	</partido>
+	
+	<partido>
+		<equipoLocal>Suns</equipoLocal>
+		<equipoVisitante>Nets</equipoVisitante>
+		<puntosLocal>50</puntosLocal>
+		<puntosVisitante>90</puntosVisitante>
+		<temporada>98/99</temporada>
+	</partido>
+	
+	<partido>
+		<equipoLocal>Lakers</equipoLocal>
+		<equipoVisitante>Bulls</equipoVisitante>
+		<puntosLocal>120</puntosLocal>
+		<puntosVisitante>80</puntosVisitante>
+		<temporada>99/00</temporada>
+	</partido>
+	
+	<partido>
+		<equipoLocal>Nets</equipoLocal>
+		<equipoVisitante>Jazz</equipoVisitante>
+		<puntosLocal>99</puntosLocal>
+		<puntosVisitante>99</puntosVisitante>
+		<temporada>99/00</temporada>
+	</partido>
+	
+	<partido>
+		<equipoLocal>Jazz</equipoLocal>
+		<equipoVisitante>Lakers</equipoVisitante>
+		<puntosLocal>120</puntosLocal>
+		<puntosVisitante>121</puntosVisitante>
+		<temporada>99/00</temporada>
+	</partido>
+</partidos>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jugadores>
+	<jugador>
+		<nombre>Trevor Ariza</nombre>
+		<procedencia>UCLA</procedencia>
+		<altura>6-8</altura>
+		<peso>210</peso>
+		<posicion>F</posicion>
+		<nombreEquipo>Lakers</nombreEquipo>
+	</jugador>
+	
+	<jugador>
+		<nombre>Shannon Brown</nombre>
+		<procedencia>Michigan State</procedencia>
+		<altura>6-4</altura>
+		<peso>211</peso>
+		<posicion>G</posicion>
+		<nombreEquipo>Bulls</nombreEquipo>
+	</jugador>
+	
+	<jugador>
+		<nombre>Leandro Barbosa</nombre>
+		<procedencia>Brazil</procedencia>
+		<altura>6-3</altura>
+		<peso>202</peso>
+		<posicion>G</posicion>
+		<nombreEquipo>Suns</nombreEquipo>
+	</jugador>
+	
+	<jugador>
+		<nombre>Maurice Ager</nombre>
+		<procedencia>Michigan State</procedencia>
+		<altura>6-5</altura>
+		<peso>202</peso>
+		<posicion>F-G</posicion>
+		<nombreEquipo>Nets</nombreEquipo>
+	</jugador>
+	
+	<jugador>
+		<nombre>Morris Almond</nombre>
+		<procedencia>Rice</procedencia>
+		<altura>6-6</altura>
+		<peso>225</peso>
+		<posicion>G</posicion>
+		<nombreEquipo>Jazz</nombreEquipo>
+	</jugador>
+	
+</jugadores>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estadisticas>
+	<estadistica>
+		<temporada>99/00</temporada>
+		<jugador>1</jugador>
+		<puntosPORpartido>6.2</puntosPORpartido>
+		<asistenciasPORpartido>5.5</asistenciasPORpartido>
+		<taponesPORpartido>1.3</taponesPORpartido>
+		<rebotesPORpartido>4.4</rebotesPORpartido>
+	</estadistica>
+	
+	<estadistica>
+		<temporada>98/99</temporada>
+		<jugador>2</jugador>
+		<puntosPORpartido>7.2</puntosPORpartido>
+		<asistenciasPORpartido>2.5</asistenciasPORpartido>
+		<taponesPORpartido>3.3</taponesPORpartido>
+		<rebotesPORpartido>5.4</rebotesPORpartido>
+	</estadistica>
+	
+	<estadistica>
+		<temporada>98/99</temporada>
+		<jugador>3</jugador>
+		<puntosPORpartido>3.3</puntosPORpartido>
+		<asistenciasPORpartido>1.1</asistenciasPORpartido>
+		<taponesPORpartido>2.2</taponesPORpartido>
+		<rebotesPORpartido>6.6</rebotesPORpartido>
+	</estadistica>
+	
+	<estadistica>
+		<temporada>99/00</temporada>
+		<jugador>4</jugador>
+		<puntosPORpartido>8.8</puntosPORpartido>
+		<asistenciasPORpartido>4.1</asistenciasPORpartido>
+		<taponesPORpartido>2.9</taponesPORpartido>
+		<rebotesPORpartido>9.9</rebotesPORpartido>
+	</estadistica>
+	
+	<estadistica>
+		<temporada>99/00</temporada>
+		<jugador>5</jugador>
+		<puntosPORpartido>8.2</puntosPORpartido>
+		<asistenciasPORpartido>3.5</asistenciasPORpartido>
+		<taponesPORpartido>7.3</taponesPORpartido>
+		<rebotesPORpartido>1.4</rebotesPORpartido>
+	</estadistica>
+	
+	
+</estadisticas>
