@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+	<equipo>
+		<nombre>Lakers</nombre>
+		<ciudad>Los Angeles</ciudad>
+		<conferencia>West</conferencia>
+		<division>Pacific</division>
+	</equipo>
+	
+	<equipo>
+		<nombre>Bulls</nombre>
+		<ciudad>Chicago</ciudad>
+		<conferencia>East</conferencia>
+		<division>Central</division>
+	</equipo>
+	<equipo>
+		<nombre>Suns</nombre>
+		<ciudad>Phonenix</ciudad>
+		<conferencia>West</conferencia>
+		<division>Pacific</division>
+	</equipo>
+	
+	<equipo>
+		<nombre>Nets</nombre>
+		<ciudad>New Jersey</ciudad>
+		<conferencia>East</conferencia>
+		<division>Atlantic</division>
+	</equipo>
+	
+	<equipo>
+		<nombre>Jazz</nombre>
+		<ciudad>Utah</ciudad>
+		<conferencia>West</conferencia>
+		<division>NothWest</division>
+	</equipo>
+</equipos>

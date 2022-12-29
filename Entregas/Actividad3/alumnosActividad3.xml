@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alumnos>
+    <alumno>
+        <nombre>Moises</nombre>
+        <fnac>12-09-1992</fnac>
+        <media>9.0</media>
+        <curso>DAM2</curso>
+    </alumno>
+    <alumno>
+        <nombre>Victor</nombre>
+        <fnac>10-10-1999</fnac>
+        <media>9.0</media>
+        <curso>DAM2</curso>
+    </alumno>
+    <alumno>
+        <nombre>Carlos</nombre>
+        <fnac>11-10-2000</fnac>
+        <media>9.0</media>
+        <curso>DAM2</curso>
+    </alumno>
+    <alumno>
+        <nombre>Laura</nombre>
+        <fnac>12-09-2001</fnac>
+        <media>6.0</media>
+        <curso>DAM2</curso>
+    </alumno>
+    <alumno>
+        <nombre>Sandra</nombre>
+        <fnac>21-02-1900</fnac>
+        <media>10.0</media>
+        <curso>DAM2</curso>
+    </alumno>
+</alumnos>
